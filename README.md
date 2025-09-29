@@ -8,12 +8,6 @@ Real-ESRGAN is an upgraded [ESRGAN](https://arxiv.org/abs/1809.00219) trained wi
 - [Paper (Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data)](https://arxiv.org/abs/2107.10833)
 - [Original implementation](https://github.com/xinntao/Real-ESRGAN)
 
-### Installation
-
-```bash
-pip install git+https://github.com/sberbank-ai/Real-ESRGAN.git
-```
-
 ### Usage
 
 ---
