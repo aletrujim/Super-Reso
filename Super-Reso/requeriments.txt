@@ -1,0 +1,11 @@
+enviroment: 
+sres
+
+packages:
+threadpool
+cv2
+tqdm
+PIL
+torch
+torchvision
+scikit-image
