@@ -2,16 +2,43 @@
 
 This repository contains the code, trained models, and evaluation scripts associated with the paper:
 
-> **Satellite Imagery Super-Resolution Using GANs and Aerial Images**
-> IEEE Latin America Transactions, 2026
+## Satellite Imagery Super-Resolution Using GANs and Aerial Images
+
+**IEEE Latin America Transactions**, 2026 //
+**Manuscript ID:** 10603
+
+### Authors
+
+* **Magda Alexandra Trujillo-Jiménez**¹˒⁵*
+* **Francisco Ramiro Iaconis**²
+* **Debora Pollicelli**³
+* **Gisela Noelia Revollo Sarmiento**⁴
+* **Claudio Delrieux**¹
+
+### Affiliations
+
+¹ Laboratorio de Ciencias de las Imágenes (LCI), Departamento de Ciencias e Ingeniería de la Computación (DCIC), Universidad Nacional del Sur (UNS) – CONICET, Bahía Blanca, Argentina
+
+² Instituto de Física del Sur (IFISUR), Departamento de Física, Universidad Nacional del Sur (UNS) – CONICET, Bahía Blanca, Argentina
+
+³ Laboratorio de Investigación en Informática, Departamento de Informática, Universidad Nacional de la Patagonia San Juan Bosco (UNPSJB), Puerto Madryn, Argentina
+
+⁴ Instituto de Ecorregiones Andinas (INECOA-CONICET), Facultad de Ingeniería, Universidad Nacional de Jujuy (UNJu), Jujuy, Argentina
+
+⁵ Instituto Patagónico de Ciencias Sociales y Humanas (IPCSH), CCT CONICET-CENPAT, Puerto Madryn, Argentina
+
+---
 
 ## Overview
 
 High-resolution satellite imagery is often expensive, scarce, or unavailable for many regions. This project investigates whether high-resolution aerial orthophotos can be used as an alternative source of training data for satellite image super-resolution.
 
-The proposed approach is based on **Real-ESRGAN**, a GAN-based super-resolution framework, fine-tuned using aerial orthophotos and subsequently applied to satellite imagery without domain-specific adaptation.
+The proposed approach is based on **Real-ESRGAN**, a GAN-based super-resolution framework fine-tuned using aerial orthophotos and subsequently applied to satellite imagery without domain-specific adaptation.
 
 The study evaluates the transferability of spatial representations learned from aerial imagery to satellite images using structural, perceptual, and color-based metrics.
+
+---
+
 
 ---
 
@@ -187,11 +214,8 @@ To ensure reproducibility:
 If you use this repository in your research, please cite:
 
 ```bibtex
-@article{trujillo2026superreso,
-  title={Satellite Imagery Super-Resolution Using GANs and Aerial Images},
-  author={Trujillo-Jiménez, Magda Alexandra and collaborators},
-  journal={IEEE Latin America Transactions},
-  year={2026}
+@article{
+ coming soon...
 }
 ```
 
