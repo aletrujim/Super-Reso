@@ -86,6 +86,57 @@ Super-Reso/
 └── README.md
 ```
 
+## File Description
+
+### train.py
+Main training script used to train the Real-ESRGAN super-resolution model. It loads the training dataset, initializes the network, computes losses, and updates model parameters during training.
+
+### test.py
+Runs inference on a single low-resolution image and generates the corresponding super-resolved output.
+
+### test_folder.py
+Batch inference script. Processes all images within a specified directory and generates super-resolved outputs for each image.
+
+### data_loader.py
+Implements dataset loading, preprocessing, patch extraction, and batch generation used during training and evaluation.
+
+### utils.py
+Utility functions used throughout the project, including image processing, file management, logging, and auxiliary operations required by training and inference scripts.
+
+### imgs2lowres.py
+Generates synthetic low-resolution images from high-resolution aerial imagery through controlled downsampling. This script was used to create the training pairs required for supervised super-resolution learning.
+
+### gen_lr_imgs.py
+Creates low-resolution image datasets at different scaling factors (e.g., ×2 and ×4) used during model training and validation.
+
+### dlib_alignment.py
+Performs image alignment and geometric preprocessing. Originally included as part of the Real-ESRGAN preprocessing pipeline.
+
+### change_size.py
+Resizes images to the required dimensions for training, testing, or evaluation.
+
+### change_ext.py
+Converts image file formats and extensions to ensure compatibility with the processing pipeline.
+
+### requirements.txt
+Lists all Python dependencies required to reproduce the experiments and run the code.
+
+## Workflow
+
+1. Generate low-resolution images from aerial orthophotos:
+   - imgs2lowres.py
+   - gen_lr_imgs.py
+
+2. Train or fine-tune the Real-ESRGAN model:
+   - train.py
+
+3. Generate super-resolved images:
+   - test.py (single image)
+   - test_folder.py (batch processing)
+
+4. Evaluate results using the metrics described in the paper.
+
+
 ---
 
 ## Dataset
